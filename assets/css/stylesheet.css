@@ -1,0 +1,76 @@
+/*#region reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /*#endregion*/
+
+  /*#region heading*/
+  #heading {
+    position:fixed;
+    width:100%;
+    height:61px;
+    background-color: black;
+    font-family: Lusitana,serif;
+    color:white;
+  }
+ 
+  /*#endregion*/
+
+  /*#region album display flex*/
+  #amsp, #tkol, #ir, #httt, #a, #ka, #oc, #tb, #ph {
+    display:flex;
+  } 
+
+  /*#endregion*/
+
+  /*#region albums*/
+  /*#region amsp*/
+  #amsp {
+    height:120vh;
+    background-color: #767479;
+  }
+
+  #amsp-section-1 {
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #cover-image-section {
+    width:100%;
+    padding-left:12px;
+    padding-right:12px;
+    padding-top:73px;
+  }
+
+  #smaller-images-section {
+    width:100%;
+    background-color: red;
+    /*make into a grid, use the column/row gap*/
+  }
+
+  #cover-image {
+    width:100%;
+  }
+
+  #amsp-section-2 {
+    flex:1;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  #amsp-section-2:hover {
+    overflow-y:auto;
+  }
+  #amsp-section-3 {
+    flex:1;
+  }
+  #amsp-section-4 {
+    flex:1;
+  }
+ /*#endregion*/
+  /*#endregion8*/
