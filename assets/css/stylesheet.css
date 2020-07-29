@@ -21,6 +21,7 @@
   /*#region album display flex*/
   #amsp, #tkol, #ir, #httt, #a, #ka, #oc, #tb, #ph {
     display:flex;
+    flex-wrap: wrap;
   } 
 
   /*#endregion*/
