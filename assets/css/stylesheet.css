@@ -29,49 +29,104 @@
   /*#region albums*/
   /*#region amsp*/
   #amsp {
-    height:120vh;
+    height:820px;
     background-color: #767479;
   }
 
   #amsp-section-1 {
-    flex:1;
+    width:25%;
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
 
-  #cover-image-section {
+  #amsp-cover-image-section {
     width:100%;
+    height:448px;;
     padding-left:12px;
     padding-right:12px;
     padding-top:73px;
   }
 
-  #smaller-images-section {
+  #amsp-smaller-images-section {
     width:100%;
-    background-color: red;
-    /*make into a grid, use the column/row gap*/
+    height:372px;
+    display:grid;
+    grid-template-rows: 165px 165px;
+    grid-template-columns: 166px 166px;
+    grid-row-gap: 25px;
+    grid-column-gap: 24px;
+    padding-left:12px;
+    padding-top:5px;
+    background-color: #767479;
+    padding-bottom:0;
+  }
+
+  #amsp-section-1-image-1 {
+    grid-row:1;
+    grid-column:1;
+  }
+  #amsp-section-1-image-2 {
+    grid-row:1;
+    grid-column:2;
+  }
+  #amsp-section-1-image-3 {
+    grid-row:2;
+    grid-column:1;
+  }
+  #amsp-section-1-image-4 {
+    grid-row:2;
+    grid-column:2;
   }
 
   #cover-image {
     width:100%;
   }
-
+  #amsp-section-1-image-1 img, #amsp-section-1-image-2 img, #amsp-section-1-image-3 img, #amsp-section-1-image-4 img{
+    width:100%;
+    height:100%;
+  }
   #amsp-section-2 {
-    flex:1;
+    width:25%;
+    background: green;
     display:flex;
     flex-wrap:wrap;
     flex-direction: column;
-    overflow: hidden;
+    overflow-y: hidden;
   }
   #amsp-section-2:hover {
     overflow-y:auto;
   }
+
+  #amsp-section-2-image-1 img {
+    height:265px;
+    width:360px;
+    margin-top:73px;
+    margin-left:11px;
+  }
+  #amsp-section-2-image-2 img {
+    height:205px;
+    width:360px;
+    margin-top:5px;
+    margin-left:11px;
+  }
+  #amsp-section-2-image-3 img {
+    height:195px;
+    width:360px;
+    margin-top:4px;
+    margin-left:11px;
+  }
+  #amsp-section-2-image-4 img {
+    height:195px;
+    width:360px;
+    margin-top:4px;
+    margin-left:11px;
+  }
   #amsp-section-3 {
-    flex:1;
+    width:25%;
   }
   #amsp-section-4 {
-    flex:1;
+    width:25%;
   }
  /*#endregion*/
   /*#endregion8*/
